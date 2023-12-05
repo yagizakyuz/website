@@ -29,6 +29,7 @@
     },
     "type": "module",
     "dependencies": {
+        "@sveltejs/adapter-static": "^2.0.3",
         "daisyui": "^4.4.18"
     }
 }
