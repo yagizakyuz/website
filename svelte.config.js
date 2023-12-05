@@ -8,6 +8,9 @@ const config = {
     preprocess: vitePreprocess(),
 
     kit: {
+        paths: {
+            base: process.env.NODE_ENV === 'production' ? '/website' : ''
+          },
         adapter: adapter({
             pages: 'build',
             assets: 'build',
